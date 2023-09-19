@@ -16,7 +16,7 @@
     padding: 20px 40px 60px 40px;
     justify-content: space-between;
 }
-a{
+.menu > a{
     font-size: 1.2em;
     font-family: 'Roboto';
     font-weight: 500;
@@ -24,10 +24,10 @@ a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.907);
 }
-a:hover{
+.menu > a:hover{
     color: rgba(255, 255, 255, 0.928);
 }
-.shop{
+.menu > .shop{
     background-color: rgba(0, 0, 0, 0.891);
     color: rgb(255, 237, 221);
     padding: 10px;
@@ -35,7 +35,6 @@ a:hover{
 }
 .nav-title{
     font-size: 2em;
-<<<<<<< Updated upstream
     font-family: 'Montserrat';
     font-weight: bold;
     color: rgba(255, 255, 255, 0.928)
@@ -86,14 +85,24 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.765);
     color: rgba(255, 255, 255, 0.921);
     padding: 14px 15px 14px 15px;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.961);
 }
 .contactusheader{
     border: 3px solid rgba(0, 0, 0, 0.87);
     font-weight: 400;
-    
-=======
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.907);
 }
-
+/*Seccion 2*/
 .boxes{
     display: flex;
     margin: auto;
@@ -120,5 +129,64 @@ a:hover{
     width: 65px;
     height: 45px;
     margin: auto;
->>>>>>> Stashed changes
+}
+
+
+/*Seccion 3*/
+.section3{
+    background-color: rgb(143, 200, 119);
+    background-image: url(img/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 0 100px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+.promotion-sec3{
+    padding: 20px;
+    margin: 0 auto;
+    place-self: center;
+    background-color: rgba(255, 255, 255, 0.928);
+}
+.line-promotion{
+    border: 2px solid rgba(123, 201, 119, 0.64);
+    text-align: center;
+    padding: 20px;
+}
+.sec3-subtitle{
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.877);
+}
+.sec3-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+}
+.sec3-price{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 70px;
+    color: rgba(123, 201, 119, 0.925);
+    padding: 20px
+}
+.sec3-product{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 25px;
+}
+.sec3-text{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px;
+}
+.line-promotion > .sec3-countdown{
+    font-family: 'Roboto';
+}
+.img-section3{
+    width: 70%;
+    place-self: center;
 }
