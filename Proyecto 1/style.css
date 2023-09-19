@@ -5,11 +5,7 @@
     padding: 0;
 }
 .section1{
-    background-color: rgb(143, 200, 119);
-    background-image: url(img/bg.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding: 0 100px 60px 100px;
+    background-color: rgb(180, 230, 158);
 }
 .header{
     display: flex;
@@ -35,63 +31,6 @@ a:hover{
 }
 .nav-title{
     font-size: 2em;
-<<<<<<< Updated upstream
-    font-family: 'Montserrat';
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.928)
-}
-.main-header{
-    display: flex;
-    justify-content: space-around;
-    text-align: left;
-    padding: 15vh 0 0 0;
-}
-.image-header{
-    width: 30em;
-}
-.text-header{
-    place-self: center;
-}
-.header-subtitle{
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 1.5rem;
-}
-.header-title{
-    font-family: 'Roboto';
-    font-weight: bolder;
-    font-size: 4rem;
-    color: white;
-}
-.header-title > span{
-    font-family: 'Roboto';
-    font-weight: 100;
-    font-size: 4rem;
-    color: black;
-}
-.header-text{
-    color: white;
-    font-family: 'Roboto';
-    font-weight: 200;
-    padding-bottom: 40px;
-    letter-spacing: 1px;
-}
-.button-header{
-    font-family: 'Roboto';
-    font-weight: 100;
-    border-radius: 5px;
-    padding: 10px 15px 10px 15px;
-}
-.buynowheader{
-    background-color: rgba(0, 0, 0, 0.765);
-    color: rgba(255, 255, 255, 0.921);
-    padding: 14px 15px 14px 15px;
-}
-.contactusheader{
-    border: 3px solid rgba(0, 0, 0, 0.87);
-    font-weight: 400;
-    
-=======
 }
 
 .boxes{
@@ -117,8 +56,17 @@ a:hover{
 }
 
 .icon{
-    width: 65px;
-    height: 45px;
+    width: 70px;
+    height: 50px;
+}
+
+.text{
+    width: 260px;
+    height: 160px;
     margin: auto;
->>>>>>> Stashed changes
+    border: 2px solid #c0d8c4;
+    padding-left: 87px;
+    padding-right: 87px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
