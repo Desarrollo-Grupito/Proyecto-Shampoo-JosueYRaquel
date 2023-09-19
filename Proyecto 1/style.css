@@ -35,6 +35,7 @@ a:hover{
 }
 .nav-title{
     font-size: 2em;
+<<<<<<< Updated upstream
     font-family: 'Montserrat';
     font-weight: bold;
     color: rgba(255, 255, 255, 0.928)
@@ -90,4 +91,34 @@ a:hover{
     border: 3px solid rgba(0, 0, 0, 0.87);
     font-weight: 400;
     
+=======
+}
+
+.boxes{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.box{
+    margin-top: 50px;
+    width: 300px;
+    height:200px ;
+    background-color:rgb(152, 195, 133) ;
+    margin: auto;
+    display: flex;
+}
+
+.title{
+    color: #ffff;
+}
+
+.icon{
+    width: 65px;
+    height: 45px;
+    margin: auto;
+>>>>>>> Stashed changes
 }
