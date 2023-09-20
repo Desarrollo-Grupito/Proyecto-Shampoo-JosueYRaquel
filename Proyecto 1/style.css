@@ -12,7 +12,7 @@
     padding: 20px 40px 60px 40px;
     justify-content: space-between;
 }
-.menu > a{
+a{
     font-size: 1.2em;
     font-family: 'Roboto';
     font-weight: 500;
@@ -20,10 +20,10 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 0.907);
 }
-.menu > a:hover{
+a:hover{
     color: rgba(255, 255, 255, 0.928);
 }
-.menu > .shop{
+.shop{
     background-color: rgba(0, 0, 0, 0.891);
     color: rgb(255, 237, 221);
     padding: 10px;
@@ -31,6 +31,7 @@
 }
 .nav-title{
     font-size: 2em;
+<<<<<<< Updated upstream
     font-family: 'Montserrat';
     font-weight: bold;
     color: rgba(255, 255, 255, 0.928)
@@ -81,16 +82,11 @@
     background-color: rgba(0, 0, 0, 0.765);
     color: rgba(255, 255, 255, 0.921);
     padding: 14px 15px 14px 15px;
-    font-size: 1.2em;
-    font-family: 'Roboto';
-    font-weight: 500;
-    margin: 0px 15px 0px 15px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.961);
 }
 .contactusheader{
     border: 3px solid rgba(0, 0, 0, 0.87);
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 1.2em;
     font-family: 'Roboto';
     font-weight: 500;
@@ -98,8 +94,12 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 0.907);
 
+=======
+    
+=======
+>>>>>>> parent of 666304d (Trabajo 19/9)
 }
-/*Seccion 2*/
+
 .boxes{
     display: flex;
     margin: auto;
@@ -131,6 +131,7 @@
     width: 260px;
     height: 160px;
     margin: auto;
+<<<<<<< HEAD
 
 }
 
@@ -222,4 +223,7 @@
     width: 100%;
     height: 1300px;
     background-color:#ffff ;
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of 666304d (Trabajo 19/9)
 }
