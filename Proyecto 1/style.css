@@ -5,7 +5,11 @@
     padding: 0;
 }
 .section1{
-    background-color: rgb(180, 230, 158);
+    background-color: rgb(143, 200, 119);
+    background-image: url(img/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0 100px 60px 100px;
 }
 .header{
     display: flex;
@@ -94,6 +98,7 @@ a:hover{
     margin: 0px 15px 0px 15px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.907);
+<<<<<<< HEAD
 
 =======
     
@@ -103,6 +108,8 @@ a:hover{
     
 =======
 >>>>>>> parent of 666304d (Trabajo 19/9)
+=======
+>>>>>>> parent of 8e6baaf (Merge branch 'raquel')
 }
 
 .boxes{
@@ -128,17 +135,15 @@ a:hover{
 }
 
 .icon{
-    width: 70px;
-    height: 50px;
-}
-
-.text{
-    width: 260px;
-    height: 160px;
+    width: 65px;
+    height: 45px;
     margin: auto;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 8e6baaf (Merge branch 'raquel')
 }
 
 
@@ -199,6 +204,7 @@ a:hover{
 .img-section3{
     width: 70%;
     place-self: center;
+<<<<<<< HEAD
 
     border: 2px solid #c0d8c4;
     padding-left: 87px;
@@ -235,4 +241,6 @@ a:hover{
 =======
 >>>>>>> Stashed changes
 >>>>>>> parent of 666304d (Trabajo 19/9)
+=======
+>>>>>>> parent of 8e6baaf (Merge branch 'raquel')
 }
