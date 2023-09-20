@@ -35,7 +35,6 @@ a:hover{
 }
 .nav-title{
     font-size: 2em;
-<<<<<<< Updated upstream
     font-family: 'Montserrat';
     font-weight: bold;
     color: rgba(255, 255, 255, 0.928)
@@ -90,26 +89,12 @@ a:hover{
 .contactusheader{
     border: 3px solid rgba(0, 0, 0, 0.87);
     font-weight: 400;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-size: 1.2em;
     font-family: 'Roboto';
     font-weight: 500;
     margin: 0px 15px 0px 15px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.907);
-<<<<<<< HEAD
-
-=======
-    
-=======
->>>>>>> parent of 666304d (Trabajo 19/9)
-=======
-    
-=======
->>>>>>> parent of 666304d (Trabajo 19/9)
-=======
->>>>>>> parent of 8e6baaf (Merge branch 'raquel')
 }
 
 .boxes{
@@ -138,12 +123,6 @@ a:hover{
     width: 65px;
     height: 45px;
     margin: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 8e6baaf (Merge branch 'raquel')
 }
 
 
@@ -204,9 +183,6 @@ a:hover{
 .img-section3{
     width: 70%;
     place-self: center;
-<<<<<<< HEAD
-
-    border: 2px solid #c0d8c4;
     padding-left: 87px;
     padding-right: 87px;
     padding-top: 25px;
@@ -235,12 +211,4 @@ a:hover{
     width: 100%;
     height: 1300px;
     background-color:#ffff ;
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 666304d (Trabajo 19/9)
-=======
->>>>>>> Stashed changes
->>>>>>> parent of 666304d (Trabajo 19/9)
-=======
->>>>>>> parent of 8e6baaf (Merge branch 'raquel')
 }
