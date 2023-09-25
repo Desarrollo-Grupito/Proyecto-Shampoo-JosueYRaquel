@@ -4,8 +4,10 @@
     margin: 0;
     padding: 0;
 }
+.background-page{
+    background: linear-gradient(-50deg, #9bc387 0%, #9bc387 50%, #90bc79 50%, #90bc79 100%);
+}
 .section1{
-    background-color: rgb(143, 200, 119);
     background-image: url(img/bg.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -96,71 +98,82 @@ a:hover{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.907);
 }
-
+/* SECCION 2*/
 .boxes{
     display: flex;
-    margin: auto;
-    width: 100%;
-    height: 500px;
-    padding-right: 300px;
-    padding-left: 300px;
+    justify-content: center;
+    gap: 2em;
 }
-
 .box{
-    margin-top: 50px;
-    width: 300px;
-    height:200px ;
-    background-color:rgb(152, 195, 133) ;
-    margin: auto;
-    display: flex;
+    background: linear-gradient(-50deg, #9bc387 0%, #9bc387 50%, #90bc79 50%, #90bc79 100%);
+    padding: 0.5em;
+    margin-top: 4em;
+    margin-bottom: 6em;
+    width: 20em;
+    height: 11em;
 }
-
-.title{
-    color: #ffff;
-}
-
-.icon{
-    width: 70px;
-    height: 50px;
-}
-
 .text{
-    width: 260px;
-    height: 160px;
-    margin: auto;
-    border: 2px solid #c0d8c4;
-    padding-left: 87px;
-    padding-right: 87px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.shampoo{
-    height: 1000px;
-    width: 100%;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    height: 100%;
+    justify-content: center;
+    padding: 1em;
 }
-
-.image{
-    height: 500px;
-    width:500px ;
+.icon{
+    width: 4em;
+    margin: 0 auto;
 }
-
-.text1{
-    height:300px ;
-    width: 500px;
+.shampoo{
+    display: flex;
 }
-
-.section2{
-    width: 100%;
-    height: 1300px;
-    background-color:#ffff ;
+.title{
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    text-align: center;
+    color: rgba(255, 255, 255, 0.884);
+    padding-top: 1em;
+}
+.shampoo{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.imagesec2{
+    width: 30em;
+}
+.textsec2{
+    width: fit-content;
+    align-self: center;
+}
+.titletext2{
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 2.4em;
+}
+.titletext2 > span{
+    color: #91bc79;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.ptextsec2{
+    width: 30em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #959597;
+    padding-bottom: 1em;
+}
+.shopsec2{
+    background-color: rgba(144,188,121,255);
+    color: rgb(255, 237, 221);
+    padding: 0.6em;
+    border-radius: 10px;
+    margin: 0 auto;
+    
 }
 /*Seccion 3*/
 .section3{
-    background-color: rgb(143, 200, 119);
     background-image: url(img/bg.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -211,9 +224,20 @@ a:hover{
 }
 .line-promotion > .sec3-countdown{
     font-family: 'Roboto';
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 2em;
+    line-height: 1em;
 }
+h1 > .days{
+    font-size: 1.2rem !important;
+    color: gray;
+    font-weight: 200;
+}
+
 .img-section3{
-    width: 70%;
+    width: 45em;
     place-self: center;
     padding-left: 87px;
     padding-right: 87px;
